@@ -550,7 +550,7 @@ a {
     align-items: center;
     text-align: center;
     color: #df4242;
-    font-size: 30px;
+    font-size: 28px;
     /* line-height: 1.2; */
     border-radius: 20px;
     height: 50px;
@@ -576,15 +576,15 @@ a {
 
 @keyframes Big_Text {
     0% {
-        font-size: 30px;
+        font-size: 28px;
         text-shadow: #df4242 0 0 0px;
     }
     50% {
-        font-size: 35px;
+        font-size: 32px;
         text-shadow: #df4242 0 0 4px;
     }
     100% {
-        font-size: 30px;
+        font-size: 28px;
         text-shadow: #df4242 0 0 0px;
     }
 }
