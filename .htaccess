@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.studyrf.online$ [NC]
+RewriteRule ^(.*)$ https://studyrf.online/$1 [R=301,L]
