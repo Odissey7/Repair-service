@@ -518,6 +518,7 @@ a {
 /* FORM */
 
 .container {
+    position: relative;
     margin-top: 350px;
 }
 
@@ -542,6 +543,11 @@ a {
 }
 
 .big_text {
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
     user-select: none;
     background-color: #1832a3;
     width: 400px;
@@ -553,7 +559,7 @@ a {
     font-size: 28px;
     /* line-height: 1.2; */
     border-radius: 20px;
-    height: 50px;
+    height: 60px;
     margin: 0;
     margin: 0 auto;
     cursor: pointer;
@@ -576,14 +582,17 @@ a {
 
 @keyframes Big_Text {
     0% {
+        /* scale: 1; */
         font-size: 28px;
         text-shadow: #df4242 0 0 0px;
     }
     50% {
+        /* scale: 1.1; */
         font-size: 32px;
         text-shadow: #df4242 0 0 4px;
     }
     100% {
+        /* scale: 1; */
         font-size: 28px;
         text-shadow: #df4242 0 0 0px;
     }
@@ -642,6 +651,7 @@ a {
 
     .big_text {
         width: 220px;
+        margin-bottom: 40px;
         font-size: 18px;
         animation: Big_Text3 2s linear infinite;
     }
@@ -677,6 +687,7 @@ form input.error{
 
 
 .form_box {
+    margin-top: 200px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
@@ -733,7 +744,7 @@ form input.error{
     width: 300px;
     height: 60px;
     box-sizing: border-box;
-    border: none;
+    border: 1px solid #ff000000;
     border-radius: 30px;
     transition: all 0.4s linear;
 }
@@ -966,7 +977,7 @@ form input.error{
 
 
 .main {
-    margin-top: 30px;
+    /* margin-top: 30px; */
     /* background-color: #003da6; */
     /* position: relative; */
 }
@@ -1113,6 +1124,7 @@ form input.error{
 ._best {
     position: absolute;
     right: 20%;
+    z-index: -2;
     font-weight: 700;
     user-select: none;
     font-size: 90px;
