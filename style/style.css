@@ -1221,6 +1221,11 @@ form input.error{
     grid-template-rows: repeat(2, 1fr);
 }
 
+.name_work_list_sec {
+    grid-template-columns:repeat(2, 1fr);
+    column-gap: 60px;
+    grid-template-rows: repeat(4, 1fr);
+}
 
 .hidden {
     display: none !important;
@@ -1935,6 +1940,9 @@ form input.error{
     padding-top: 50px;
 }
 
+.how_work_wrap_sec {
+    padding: 30px;
+}
 
 .how_work_form {
     margin: 0 auto;
@@ -2032,7 +2040,7 @@ form input.error{
     border: none;
     padding: 20px 50px;
     color: #fff;
-    font-size: 23px;
+    font-size: 18px;
     border-radius: 10px;
     box-sizing: border-box;
     background: linear-gradient(85.47deg,#d3b5b0 -2.07%,#ac2f2f 98.78%);
